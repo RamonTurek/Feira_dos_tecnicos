@@ -15,5 +15,8 @@
     {"name":"Extensões","order":13,"path":"folders/Extensões.yy",},
     {"name":"Particle Systems","order":14,"path":"folders/Particle Systems.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
+  ],
 }
