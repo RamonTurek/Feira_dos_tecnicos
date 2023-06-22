@@ -3,4 +3,4 @@ hspd = 10
 vspd = 10
 xx = 0
 yy = 0
-global.cont = false
+controle = false
