@@ -18,11 +18,15 @@
   "ResourceOrderSettings": [
     {"name":"obj_nave","order":1,"path":"objects/obj_nave/obj_nave.yy",},
     {"name":"obj_dentro","order":2,"path":"objects/obj_dentro/obj_dentro.yy",},
-    {"name":"Sprite5","order":4,"path":"sprites/Sprite5/Sprite5.yy",},
+    {"name":"Sprite5","order":5,"path":"sprites/Sprite5/Sprite5.yy",},
+    {"name":"Sprite6","order":15,"path":"sprites/Sprite6/Sprite6.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Sprite8","order":6,"path":"sprites/Sprite8/Sprite8.yy",},
     {"name":"obj_cometa","order":3,"path":"objects/obj_cometa/obj_cometa.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Hb","order":3,"path":"sprites/Hb/Hb.yy",},
     {"name":"obj_cont","order":4,"path":"objects/obj_cont/obj_cont.yy",},
-    {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"Sprite4","order":4,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"Sprite89","order":7,"path":"sprites/Sprite89/Sprite89.yy",},
   ],
 }

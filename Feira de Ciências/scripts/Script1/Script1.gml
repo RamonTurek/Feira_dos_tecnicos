@@ -16,10 +16,6 @@ if keyboard_check_pressed(ord("E")) and cont = 1{
 	cont = 0
 }
 
-if keyboard_check_pressed(ord("R")){
-room_restart()	
-}
-
 if cima {
 	if yy > -3{
 	yy = yy - spd	
@@ -45,9 +41,9 @@ if xx > -3{
 }
 }
 
-if place_meeting(x+hspd,y,obj_nave)
+if place_meeting(x+hspd,y,obj_dentro)
 {
-	while !place_meeting(x+sign(hspd),y,obj_nave)
+	while !place_meeting(x+sign(hspd),y,obj_dentro)
 	{
 	x = x + sign(hspd)	
 	}
@@ -55,9 +51,9 @@ if place_meeting(x+hspd,y,obj_nave)
 	xx = 0
 }
 
-if place_meeting(x,y+vspd,obj_nave)
+if place_meeting(x,y+vspd,obj_dentro)
 {
-	while !place_meeting(x,y+vspd,obj_nave)
+	while !place_meeting(x,y+vspd,obj_dentro)
 	{
 	y = y + sign(vspd)	
 	}
@@ -65,9 +61,9 @@ if place_meeting(x,y+vspd,obj_nave)
 	yy = 0
 }
 
-if place_meeting(x+xx,y,obj_nave)
+if place_meeting(x+xx,y,obj_dentro)
 {
-	while !place_meeting(x+sign(xx),y,obj_nave)
+	while !place_meeting(x+sign(xx),y,obj_dentro)
 	{
 	x = x + sign(xx)	
 	}
@@ -75,9 +71,9 @@ if place_meeting(x+xx,y,obj_nave)
 	xx = 0
 }
 
-if place_meeting(x,y+yy,obj_nave)
+if place_meeting(x,y+yy,obj_dentro)
 {
-	while !place_meeting(x,y+sign(yy),obj_nave)
+	while !place_meeting(x,y+sign(yy),obj_dentro)
 	{
 	y = y + sign(yy)	
 	}
@@ -137,8 +133,7 @@ if keyboard_check(ord("D")){
 	global.hspd += 0.01
 }
 
-x += global.hspd
-y += global.vspd
+
 
 }
 
