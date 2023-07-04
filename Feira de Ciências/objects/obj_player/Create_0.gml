@@ -3,4 +3,5 @@ hspd = 10
 vspd = 10
 xx = 0
 yy = 0
-controle = false
+global.controle = false
+image_angle = 0

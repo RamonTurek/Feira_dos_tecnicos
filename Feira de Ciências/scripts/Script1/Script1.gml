@@ -86,8 +86,7 @@ if place_meeting(x,y+yy,obj_dentro)
 if place_meeting(x,y,obj_dentro)
 {
 	
-x = x + global.hspd + xx
-y = y + global.vspd + yy
+speed = speed + obj_dentro.speed + xx
 	
 }
 else
@@ -100,14 +99,6 @@ else
 
 }
 
-function nav(){
-	
-	x += global.hspd
-	y += global.vspd
-	
-	
-}
-
 function obj(){
 x += xx
 y += yy
@@ -118,19 +109,27 @@ y += yy
 function cont(){
 	
 if keyboard_check(ord("W")){
-	global.vspd -= 0.01
-}
-
-if keyboard_check(ord("S")){
-	global.vspd += 0.01
+	motion_add(image_angle,0.007)
+	
 }
 
 if keyboard_check(ord("A")){
-	global.hspd -= 0.01
+	image_angle = image_angle - 0.3
+	
 }
 
 if keyboard_check(ord("D")){
-	global.hspd += 0.01
+	image_angle = image_angle + 0.3
+	
+}
+
+
+}
+
+
+function planet(){
+if place_meeting(x,y, obj_dentro){
+room_goto(Room2)
 }
 
 

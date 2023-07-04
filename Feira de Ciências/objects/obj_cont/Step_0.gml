@@ -1,2 +1,2 @@
-nav()
-image_angle =  point_direction(x,y,mouse_x,mouse_y)
+x = obj_dentro.x
+y = obj_dentro.y
